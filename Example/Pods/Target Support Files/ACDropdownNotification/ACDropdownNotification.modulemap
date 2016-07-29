@@ -1,0 +1,6 @@
+framework module ACDropdownNotification {
+  umbrella header "ACDropdownNotification-umbrella.h"
+
+  export *
+  module * { export * }
+}

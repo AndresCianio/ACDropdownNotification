@@ -1,0 +1,22 @@
+{
+  "name": "ACDropdownNotification",
+  "version": "0.1.0",
+  "summary": "A short description of ACDropdownNotification.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/<GITHUB_USERNAME>/ACDropdownNotification",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "Andres Ciaño": "andres.cianio@gmail.com"
+  },
+  "source": {
+    "git": "https://github.com/<GITHUB_USERNAME>/ACDropdownNotification.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "ACDropdownNotification/Classes/**/*"
+}

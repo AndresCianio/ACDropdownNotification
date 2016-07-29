@@ -1,0 +1,16 @@
+PODS:
+  - ACDropdownNotification (0.1.0)
+
+DEPENDENCIES:
+  - ACDropdownNotification (from `../`)
+
+EXTERNAL SOURCES:
+  ACDropdownNotification:
+    :path: ../
+
+SPEC CHECKSUMS:
+  ACDropdownNotification: ffeb85dd0e9661684a677e2ec909c3c2a7112ad5
+
+PODFILE CHECKSUM: 7b135d6f31b4dd85c6972e37f05094ac7a744553
+
+COCOAPODS: 1.0.1
