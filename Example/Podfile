@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'ACDropdownNotification_Example' do
+  pod 'ACDropdownNotification', :path => '../'
+
+  target 'ACDropdownNotification_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
