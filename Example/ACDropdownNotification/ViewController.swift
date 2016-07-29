@@ -17,9 +17,7 @@ class ViewController: UIViewController
         super.viewDidLoad()
         
         let n = ACDropdownNotification(title: "Da Taitel", subtitle: "Such subtitle. Much Wow. Subtitle for the win.")
-        print("/////")
-        print(n.title)
-        print("/////")
+        print(n.description())
     }
 
     override func didReceiveMemoryWarning()
