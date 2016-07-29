@@ -7,15 +7,23 @@
 //
 
 import UIKit
+import ACDropdownNotification
 
-class ViewController: UIViewController {
+class ViewController: UIViewController
+{
 
-    override func viewDidLoad() {
+    override func viewDidLoad()
+    {
         super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
+        
+        let n = ACDropdownNotification(title: "Da Taitel", subtitle: "Such subtitle. Much Wow. Subtitle for the win.")
+        print("/////")
+        print(n.title)
+        print("/////")
     }
 
-    override func didReceiveMemoryWarning() {
+    override func didReceiveMemoryWarning()
+    {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }

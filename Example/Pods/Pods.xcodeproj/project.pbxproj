@@ -11,7 +11,7 @@
 		3836C49A619A38EB58C1E0DACC808678 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6873CC14EF86357326ACB4F4D1A0D2DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
 		6BA798D5890BF6B25F48452DF451D77B /* Pods-ACDropdownNotification_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F651E438FDAF3F1E28637EB20F0C322C /* Pods-ACDropdownNotification_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		93D418B98D494D8F88222C3F53EF229E /* ReplaceMe.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783F7A2CF3F6BB650921A469412D03B /* ReplaceMe.swift */; };
+		93D418B98D494D8F88222C3F53EF229E /* ACDropdownNotification.swift in Sources */ = {isa = PBXBuildFile; fileRef = C783F7A2CF3F6BB650921A469412D03B /* ACDropdownNotification.swift */; };
 		98CC38393B26ACD9A4376AC2D200A0BC /* Pods-ACDropdownNotification_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A97CE9A0B30920910F52EC031E2AE802 /* Pods-ACDropdownNotification_Tests-dummy.m */; };
 		B5331B436D0AD15551619E3BE0C2FF7D /* Pods-ACDropdownNotification_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 387A4D31137D847AAAD71B8C629C5E72 /* Pods-ACDropdownNotification_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C6F9B01E3D8D396D1ADB77A083CA682E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
@@ -54,7 +54,7 @@
 		B368D75BFF811811C47C02045B31A5CE /* Pods-ACDropdownNotification_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ACDropdownNotification_Example-resources.sh"; sourceTree = "<group>"; };
 		C36E25DA1CE0E1C4448B3766C81FD6D2 /* Pods-ACDropdownNotification_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ACDropdownNotification_Example-frameworks.sh"; sourceTree = "<group>"; };
 		C408F0197EB7C2CFA509B314609E2676 /* Pods-ACDropdownNotification_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ACDropdownNotification_Example.release.xcconfig"; sourceTree = "<group>"; };
-		C783F7A2CF3F6BB650921A469412D03B /* ReplaceMe.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ReplaceMe.swift; sourceTree = "<group>"; };
+		C783F7A2CF3F6BB650921A469412D03B /* ACDropdownNotification.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; path = ACDropdownNotification.swift; sourceTree = "<group>"; };
 		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D1E372C93E5AB3EC5D188DAAD379C3C3 /* Pods-ACDropdownNotification_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-ACDropdownNotification_Tests.modulemap"; sourceTree = "<group>"; };
 		D2933AD124E887F668510B9427638710 /* Pods-ACDropdownNotification_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ACDropdownNotification_Example.debug.xcconfig"; sourceTree = "<group>"; };
@@ -200,7 +200,7 @@
 		D74C7F431A8A7A0A446E74B17B44ADD2 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				C783F7A2CF3F6BB650921A469412D03B /* ReplaceMe.swift */,
+				C783F7A2CF3F6BB650921A469412D03B /* ACDropdownNotification.swift */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -338,7 +338,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				03B7B9A8F16C8560EBEFB4F14918FB41 /* ACDropdownNotification-dummy.m in Sources */,
-				93D418B98D494D8F88222C3F53EF229E /* ReplaceMe.swift in Sources */,
+				93D418B98D494D8F88222C3F53EF229E /* ACDropdownNotification.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
